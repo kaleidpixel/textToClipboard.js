@@ -1,5 +1,5 @@
 # textToClipboard.js
-A JavaScript library providing text copying functionality.
+A JavaScript library providing text copying to clipboard.
 
 ## Sample
 [https://codepen.io/k4zuki02h4t4/pen/oNmJYmr](https://codepen.io/k4zuki02h4t4/pen/oNmJYmr)

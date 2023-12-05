@@ -1,5 +1,5 @@
 /*!
- * TextToClipboard - A JavaScript library providing text copying functionality.
+ * TextToClipboard - A JavaScript library providing text copying clipboard.
  *
  * @file
  * This library implements a button functionality to copy content from a specified textarea to the clipboard.
