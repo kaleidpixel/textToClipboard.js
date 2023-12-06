@@ -15,10 +15,10 @@ Coding is quite simple. The options are only simple, so you won't get lost.
 
 ```html
 <div>
-    <button type="button" class="copyBtn">Copy</button>
-    <span class="copied" style="display: none">Copied!</span>
-</div>
-<div>
+    <div>
+        <button type="button" class="copyBtn">Copy</button>
+        <span class="copied" style="display: none">Copied!</span>
+    </div>
     <textarea class="textBody">Hello World!</textarea>
 </div>
 ```
@@ -26,7 +26,7 @@ Coding is quite simple. The options are only simple, so you won't get lost.
 ```javascript
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        new CopyButtonLibrary();
+        new TextToClipboard();
     });
 </script>
 
@@ -37,10 +37,10 @@ Coding is quite simple. The options are only simple, so you won't get lost.
 
 ```html
 <div>
-    <button type="button" class="copyBtn">Copy</button>
-    <span class="copied" style="display: none">Copied!</span>
-</div>
-<div>
+    <div>
+        <button type="button" class="copyBtn">Copy</button>
+        <span class="copied" style="display: none">Copied!</span>
+    </div>
     <textarea class="textBody">Hello World!</textarea>
 </div>
 ```
@@ -48,7 +48,7 @@ Coding is quite simple. The options are only simple, so you won't get lost.
 ```javascript
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        new CopyButtonLibrary({
+        new TextToClipboard({
             copyButtonClass: 'copyBtn',
             copiedClass    : 'copied',
             textBodyClass  : 'textBody'
